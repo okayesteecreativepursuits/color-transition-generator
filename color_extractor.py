@@ -26,7 +26,7 @@ def show_colors(colors):
     plt.pause(10)  # seconds
     plt.close()
 
-colors = extract_colors("/Users/esteerutten/Downloads/ -60.jpg", num_colors=10)
+colors = extract_colors("/Users/esteerutten/Downloads/Headache (sped up) - Asal.jpg", num_colors=10)
 show_colors(colors)
 print ("Hello")
 
